@@ -67,7 +67,7 @@ public class CreateAccountInAPWebSite {
 		driver.findElement(By.xpath("//button[@id='submitAccount']")).click();
 		
 		
-		
+		driver.quit();
 		
 		
 		

@@ -19,6 +19,7 @@ public class LoginToAP {
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("santosh2@test.com");
 		driver.findElement(By.xpath("//input[@name='passwd']")).sendKeys("123456");
 		driver.findElement(By.xpath("//button[@name='SubmitLogin']")).click();
+		driver.quit();
 	}
 
 }
